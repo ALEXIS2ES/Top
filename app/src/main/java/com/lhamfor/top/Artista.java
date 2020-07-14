@@ -1,5 +1,9 @@
 package com.lhamfor.top;
 
+import android.os.Build;
+
+import androidx.annotation.RequiresApi;
+
 import java.util.Objects;
 
 public class Artista {
@@ -108,6 +112,7 @@ public class Artista {
         return id == artista.id;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public int hashCode() {
         return Objects.hash(id);
