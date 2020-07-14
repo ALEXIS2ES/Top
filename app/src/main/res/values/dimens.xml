@@ -1,4 +1,5 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="main.padding.email">4dp</dimen>
+    <dimen name="main.padding.smail">4dp</dimen>
+    <dimen name="img.item.size">80dp</dimen>
 </resources>
